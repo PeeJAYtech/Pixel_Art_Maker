@@ -20,9 +20,9 @@ colour = $("#colorPicker").val();
 */
 function makeRowCol(rows,cols){
 
-    for (var k = 0; k < rows; k++) {
+    for (var m = 0; m < rows; m++) {
 		var row = $('<tr></tr>').appendTo("table");
-		for (var j = 0; j < cols; j++) {
+		for (var n = 0; n < cols; n++) {
 			$('<td></td>').appendTo(row);
 		}
 }
